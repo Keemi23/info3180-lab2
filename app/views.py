@@ -27,7 +27,7 @@ def about():
 @app.route('/profile')
 def profile():
     userData = {
-        'profile_url': url_for('static', filename='images/img.jpg'),
+        'profile_url': url_for('static', filename=''),
         'fullname': 'Akeem Purrier',
         'username': 'keemi_',
         'location': 'Kingston, Jamaica',
